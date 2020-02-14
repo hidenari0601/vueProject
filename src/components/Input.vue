@@ -7,7 +7,7 @@
         v-bind:key="index"
       >[ERR{{index}}] : {{e}}</li>
     </ul>
-    <h1 style="color:	#00CED1">入力欄</h1>
+    <h1 style="color:	#00CED1">入力欄1</h1>
     <input v-model="text" placeholder="入力してね">
     <button @click="apply">apply</button>
     <button @click="listClear">listClear</button>
